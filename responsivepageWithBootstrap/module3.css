@@ -1,0 +1,44 @@
+body{
+  background-color: #D3D3D3;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px;
+  background-color: #512DA8;
+  height: 150px;
+  font-family: Helvetica;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container{
+  position: relative;
+  top:5%;
+}
+div#banner{
+  border: 3px solid white;
+  background-color: #512DA8;
+  margin-right:auto;
+  margin-left: auto;
+}
+#banner .content h3 {
+  border:0px solid black;
+  width: 35%;
+  background-color: #512DA8;
+  position: relative;
+  margin: 2px;
+  left: 45%;
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.navbar-dark {
+     background-color: #512DA8;
+}
